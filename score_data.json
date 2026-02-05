@@ -1,0 +1,1871 @@
+[
+  {
+    "frame": "frame_000000.jpg",
+    "ocr_text": "BONY\nliv\nAPI\nFeNG\n0-0\n/ Smith 0\nDucket: 0\nHolder",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "BONY liv API FeNG 0-0 / Smith 0 Ducket: 0 Holder",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000004.jpg",
+    "ocr_text": "BONY\nENG\n0-0\n020 TOSS ENG\n/ Smith O\nDuckett O\nHolder",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "BONY ENG 0-0 020 TOSS ENG / Smith O Duckett O Holder",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000008.jpg",
+    "ocr_text": "BONY\nliv\nENG\n0-0\n- 0/20\nToss ENG\n/ Smith O\nDuckett O\nWI\nHolder",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "BONY liv ENG 0-0 - 0/20 Toss ENG / Smith O Duckett O WI Holder",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000012.jpg",
+    "ocr_text": "SONY\nliv\nENG\n0-0\n0.1720\nToss ENG\n/ Smith o\nDuckett O\nHolder 0-0 (c1)",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "SONY liv ENG 0-0 0.1720 Toss ENG / Smith o Duckett O Holder 0-0 (c1)",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000016.jpg",
+    "ocr_text": "SONY\nliv\nENG\n5-0\n02/20 Toss ENG\n/ Smith 4.\nDuckett O\nWI\nHolder 0-5 (02)",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "SONY liv ENG 5-0 02/20 Toss ENG / Smith 4. Duckett O WI Holder 0-5 (02)",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000020.jpg",
+    "ocr_text": "BONY\nENG\n5-0\n02/20 Toss ENG\n/ Smith 4\nDuckett O\nHolder 0-5 (02)",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "BONY ENG 5-0 02/20 Toss ENG / Smith 4 Duckett O Holder 0-5 (02)",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000024.jpg",
+    "ocr_text": "SONY\nliv\nENG\n10-0\n-0.41201\nTOSS ENG\nSmith 9:\n/ Duckett O\nWI\nHolder 0-10 (© 4)",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "SONY liv ENG 10-0 -0.41201 TOSS ENG Smith 9: / Duckett O WI Holder 0-10 (© 4)",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000028.jpg",
+    "ocr_text": "SONY\nliv\nENG\n12-0\n0.5/20\nToss ENG\n/ Smith 9 :\nDucket: 1\nWI\nHolder 0-12 (05)",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "SONY liv ENG 12-0 0.5/20 Toss ENG / Smith 9 : Ducket: 1 WI Holder 0-12 (05)",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000032.jpg",
+    "ocr_text": "BONY\nliv\nENG\n12-0\n0.5/20\nTOSK ENG\n/ Smith 9 :\nDucket: 1\nWI\nHolder 0-12 (0.5)",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "BONY liv ENG 12-0 0.5/20 TOSK ENG / Smith 9 : Ducket: 1 WI Holder 0-12 (0.5)",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000036.jpg",
+    "ocr_text": "BONY\nce with Viru\nVitality\nENG\n12-0\n0.5/20\n-TOSS ENG\n/ Smith 9 :\nDucket: 1\nWI\n83 mph / 133 kph",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "BONY ce with Viru Vitality ENG 12-0 0.5/20 -TOSS ENG / Smith 9 : Ducket: 1 WI 83 mph / 133 kph",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000040.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000044.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000048.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000052.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000056.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000060.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000064.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000068.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000072.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000076.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000080.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000084.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000088.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000092.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000096.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000100.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000104.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000108.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000112.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000116.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000120.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000124.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000128.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000132.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000136.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000140.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000144.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000148.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000152.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000156.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000160.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000164.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000168.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000172.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000176.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000180.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000184.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000188.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000192.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000196.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000200.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000204.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000208.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000212.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000216.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000220.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000224.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000228.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000232.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000236.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000240.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000244.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000248.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000252.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000256.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000260.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000264.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000268.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000272.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000276.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000280.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000284.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000288.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000292.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000296.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000300.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000304.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000308.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000312.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000316.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000320.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000324.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000328.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000332.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000336.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000340.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000344.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000348.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  },
+  {
+    "frame": "frame_000352.jpg",
+    "ocr_text": "",
+    "parsed": {
+      "team1_name": null,
+      "team2_name": null,
+      "team1_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "team2_score": {
+        "runs": null,
+        "wickets": null,
+        "overs": null
+      },
+      "raw_text": "",
+      "parsed": null
+    },
+    "error": null
+  }
+]

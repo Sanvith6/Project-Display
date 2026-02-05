@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commentary AI - Broadcast System</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css?v=2.0">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">COMMENTARY <span>AI</span></div>
+        <div class="live-indicator">
+            <div class="blink-dot"></div>
+            LIVE SYSTEM
+        </div>
+    </header>
+
+    <main>
+
+        <!-- UPSTAGE -->
+        <div id="upload-stage" class="stage active">
+            <div class="upload-card">
+                <div class="upload-header">
+                    <h2>Initialize Broadcast</h2>
+                    <p>Upload match feed for real-time analysis</p>
+                </div>
+
+                <div class="drop-zone" id="drop-zone">
+                    <i class="fa-solid fa-satellite-dish drop-icon"></i>
+                    <div class="drop-text">DROP MP4 FEED HERE</div>
+                    <div class="drop-sub">SECURE UPLINK READY</div>
+                    <input type="file" id="file-input" accept="video/mp4" hidden>
+                </div>
+
+                <div class="radio-section">
+                    <div class="radio-group-label">DOES VIDEO HAVE A SCORECARD?</div>
+                    <div class="radio-options">
+                        <label class="radio-opt">
+                            <input type="radio" name="scorecard" value="yes" checked>
+                            <div class="radio-circle"></div>
+                            <span>YES</span>
+                        </label>
+                        <label class="radio-opt">
+                            <input type="radio" name="scorecard" value="no">
+                            <div class="radio-circle"></div>
+                            <span>NO</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROCESS STAGE -->
+        <div id="process-stage" class="stage">
+            <div class="process-card">
+                <div class="process-header-row">
+                    <div class="process-title">PROCESSING FEED</div>
+                    <div class="step-counter" id="step-count">0/7</div>
+                </div>
+
+                <div class="bar-bg">
+                    <div class="bar-fill" id="progress-fill"></div>
+                </div>
+
+                <div class="terminal" id="log-content">
+                    <div class="log-line">System warning: Initializing core protocols...</div>
+                </div>
+
+                <div style="margin-top: 1rem; color: #888; font-size: 0.9rem; font-family: var(--font-mono);">
+                    STATUS: <span id="status-message" style="color: var(--accent-primary);">WAITING...</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- RESULT STAGE -->
+        <div id="result-stage" class="stage">
+            <div class="result-container">
+                <div class="video-wrapper">
+                    <div class="live-badge">LIVE FEED</div>
+                    <video id="final-video" controls crossorigin="anonymous"></video>
+                </div>
+
+                <div class="chat-wrapper">
+                    <div class="chat-head">
+                        <div class="blink-dot"></div> MATCH ANALYST
+                    </div>
+                    <div class="chat-body" id="chat-box">
+                        <div class="msg ai">
+                            Broadcast link established. Tracking match events. Awaiting queries.
+                        </div>
+                    </div>
+                    <div class="chat-foot">
+                        <input type="text" id="chat-input" class="chat-input" placeholder="Query coverage..."
+                            autocomplete="off">
+                        <button class="chat-btn" id="btn-send">SEND</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls-overlay">
+                <button class="btn btn-reset" onclick="location.reload()">RESET SYSTEM</button>
+                <a id="download-link" class="btn btn-down" download="commentary.mp4">DOWNLOAD FEED</a>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,661 @@
+[GOAL: CREATE A PREMIUM INDUSTRY-GRADE SPORTS ANALYTICS DASHBOARD]
+
+We are building an "AI Cricket Commentary System". The current frontend is functional but looks too simple. 
+Your task is to REDESIGN this into a Futuristic, High-End Broadcast Dashboard (like something you'd see on Sky Sports, Star Sports, or in a Sci-Fi movie).
+
+**Design Requirements:**
+1.  **Aesthetic**: "Cyber-Sport Broadcast". Use deep space blues/blacks, glowing neon accents (Green/Blue/Pink), and heavy use of Glassmorphism (frosted glass panels).
+2.  **Typography**: Use premium, wide sans-serif fonts (like 'Outfit', 'Syncopate', or 'Rajdhani') for headers and monospaced fonts for data/logs.
+3.  **Layout**: 
+    -   A sleek sidebar or top navigation bar.
+    -   A central command area for the File Upload (make it look like a "Data Uplink").
+    -   A "Processing Terminal" that looks like a real-time system log (hacker style).
+    -   A specialized "Result View" where the Video Player is central, and the AI Chat is a futuristic side panel.
+4.  **Micro-Interactions**: Smooth hover effects, glowing borders, and animated transitions between stages.
+5.  **Responsiveness**: Must work perfectly on Desktop (priority) and Tablet.
+
+**Functionality to Maintain (DO NOT REMOVE):**
+-   **File Input**: The drag-and-drop zone (`id="drop-zone"`) and file input (`id="file-input"`).
+-   **Scorecard Toggle**: The Radio Buttons for "Scorecard Present? (Yes/No)". This is CRITICAL logic.
+-   **Pipeline Steps**: The progress bar and log window (`id="log-content"`).
+-   **Chat Interface**: The request/response flow for the AI Analyst.
+
+Below are the current 3 files. Combine them into a single stunning HTML file (with internal CSS/JS) or keep them separate but UPGRADE the code significantly.
+
+==================================================
+FILENAME: index.html
+==================================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Cricket Commentary Box</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=VT323&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay"></div> <!-- Gradient ambient background -->
+
+    <div class="app-container">
+        <!-- Header -->
+        <header class="broadcast-header">
+            <div class="brand">
+                <h1>COMMENTARY <span class="accent">AI</span></h1>
+            </div>
+            <div class="live-badge">
+                <div class="live-dot"></div> LIVE SYSTEM 
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main>
+            <!-- STAGE 1: UPLOAD (Active Start) -->
+            <section id="upload-stage" class="stage active">
+                <div class="glass-card">
+                    <h2>INITIALIZE BROADCAST</h2>
+                    <p style="color: #888; margin-top: 0.5rem">Upload match feed for real-time analysis</p>
+                    
+                    <div class="upload-zone" id="drop-zone">
+                        <i class="fa-solid fa-satellite-dish"></i>
+                        <p>DROP MP4 FEED HERE</p>
+                        <span style="font-size: 0.8rem; opacity: 0.6; font-family: var(--font-tech)">SECURE UPLINK READY</span>
+                        <input type="file" id="file-input" accept="video/mp4" hidden>
+                    </div>
+
+                    <!-- Options -->
+                    <div style="margin-top: 2rem; display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">
+                        <span style="font-family: var(--font-tech); font-size: 0.9rem; color: var(--neon-blue);">DOES VIDEO HAVE A SCORECARD?</span>
+                        <div class="radio-group" style="display: flex; gap: 2rem;">
+                            <label style="cursor: pointer; display: flex; align-items: center; gap: 0.5rem; color: #fff;">
+                                <input type="radio" name="scorecard" value="yes" checked style="accent-color: var(--neon-green);"> 
+                                <span>YES</span>
+                            </label>
+                            <label style="cursor: pointer; display: flex; align-items: center; gap: 0.5rem; color: #fff;">
+                                <input type="radio" name="scorecard" value="no" style="accent-color: var(--neon-red);"> 
+                                <span>NO</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- STAGE 2: PROCESSING -->
+            <section id="process-stage" class="stage">
+                <div class="glass-card terminal-loader">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-end;">
+                        <h2 class="accent">SYSTEM PROCESSING</h2>
+                        <span id="step-count" style="font-family: var(--font-tech); color: var(--neon-blue)">0/7</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+
+                    <div class="logs" id="log-content">
+                        > ESTABLISHING CONNECTION...
+                    </div>
+                    <div class="game-status" id="status-message" style="margin-top: 1rem; color: var(--neon-green)">Waiting...</div>
+                </div>
+            </section>
+
+            <!-- STAGE 3: RESULT (SPLIT VIEW) -->
+            <section id="result-stage" class="stage">
+                <div class="result-layout">
+                    <!-- LEFT: Video Feed -->
+                    <div class="video-container">
+                        <video id="final-video" controls crossorigin="anonymous"></video>
+                        <div style="position: absolute; top: 1rem; left: 1rem; background: rgba(0,0,0,0.6); padding: 5px 10px; border-radius: 4px; font-family: var(--font-tech); font-size: 0.8rem; border: 1px solid var(--neon-green);">
+                            LIVE FEED
+                        </div>
+                    </div>
+
+                    <!-- RIGHT: AI Chat Analyst -->
+                    <div class="chat-panel">
+                        <div class="chat-header">
+                            <div class="ai-avatar">AI</div>
+                            <div>
+                                <h3>Match Analyst</h3>
+                                <p style="font-size: 0.7rem; color: var(--neon-blue); font-family: var(--font-tech)">ONLINE • LISTENING</p>
+                            </div>
+                        </div>
+
+                        <div class="chat-messages" id="chat-box">
+                            <div class="msg ai">
+                                System ready. I am tracking the match timeline. Ask me anything about the events you see.
+                            </div>
+                        </div>
+
+                        <div class="chat-input-area">
+                            <input type="text" id="chat-input" class="chat-input" placeholder="Ask about the match..." autocomplete="off">
+                            <button id="btn-send" class="btn-send"><i class="fa-solid fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 1rem; display: flex; gap: 1rem">
+                    <button class="btn-primary" onclick="location.reload()" style="background: transparent; border: 1px solid var(--glass-border); color: #fff; padding: 0.8rem 2rem; border-radius: 8px; cursor: pointer;">NEW MATCH</button>
+                    <a id="download-link" class="btn-secondary" download="commentary.mp4" style="background: var(--neon-blue); color: #000; padding: 0.8rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; cursor: pointer;">DOWNLOAD FEED</a>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+==================================================
+FILENAME: style.css
+==================================================
+:root {
+    /* --- Cybernetic Palette --- */
+    --bg-deep: #050508;
+    --bg-panel: rgba(20, 20, 30, 0.6);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    
+    --neon-green: #00ff9d;
+    --neon-blue: #00eaff;
+    --neon-red: #ff3366;
+    
+    /* --- Typography --- */
+    --font-heading: 'Outfit', sans-serif;
+    --font-tech: 'Space Mono', monospace;
+    
+    /* --- Effects --- */
+    --glow-strong: 0 0 20px rgba(0, 255, 157, 0.3);
+    --glow-subtle: 0 0 10px rgba(0, 234, 255, 0.1);
+    --glass-blur: blur(20px);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    background-color: var(--bg-deep);
+    background-image: 
+        radial-gradient(circle at 10% 20%, rgba(0, 255, 157, 0.1) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(0, 234, 255, 0.1) 0%, transparent 40%);
+    color: #fff;
+    font-family: var(--font-heading);
+    height: 100vh;
+    overflow: hidden; /* App like feel */
+}
+
+/* --- Layout Structure --- */
+.app-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+    max_width: 1600px;
+    margin: 0 auto;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+/* --- Header --- */
+.broadcast-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: var(--bg-panel);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: var(--glass-blur);
+    border-radius: 16px;
+}
+
+.brand h1 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.brand .accent { color: var(--neon-green); text-shadow: var(--glow-strong); }
+
+.live-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-tech);
+    color: var(--neon-red);
+    font-size: 0.9rem;
+}
+.live-dot {
+    width: 8px; height: 8px;
+    background: var(--neon-red);
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+
+/* --- Main Stage Switcher --- */
+main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.95);
+}
+
+.stage.active {
+    opacity: 1;
+    pointer-events: all;
+    transform: scale(1);
+}
+
+/* --- Upload Card --- */
+.glass-card {
+    background: var(--bg-panel);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: var(--glass-blur);
+    border-radius: 24px;
+    padding: 3rem;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    max-width: 600px;
+    width: 100%;
+}
+
+.upload-zone {
+    margin-top: 2rem;
+    border: 2px dashed var(--glass-border);
+    border-radius: 16px;
+    padding: 4rem 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.upload-zone:hover {
+    border-color: var(--neon-green);
+    background: rgba(0, 255, 157, 0.05);
+}
+.upload-zone i { font-size: 3rem; color: var(--neon-green); margin-bottom: 1rem; }
+
+/* --- Processing Stage --- */
+.terminal-loader {
+    font-family: var(--font-tech);
+    text-align: left;
+    width: 100%;
+    max-width: 700px;
+}
+.progress-bar {
+    height: 6px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 3px;
+    margin: 1.5rem 0;
+    overflow: hidden;
+}
+.progress-fill {
+    height: 100%;
+    background: var(--neon-green);
+    width: 0%;
+    transition: width 0.5s ease;
+    box-shadow: var(--glow-strong);
+}
+.logs {
+    height: 200px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 8px;
+    padding: 1rem;
+    overflow-y: auto;
+    font-size: 0.85rem;
+    color: #aaa;
+    border: 1px solid var(--glass-border);
+}
+
+/* --- Result View (Split Layout) --- */
+.result-layout {
+    display: grid;
+    grid-template-columns: 1fr 400px; /* Video takes remaining space, Chat takes 400px */
+    gap: 1.5rem;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1rem;
+}
+
+.video-container {
+    background: #000;
+    border-radius: 20px;
+    border: 1px solid var(--glass-border);
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+video { width: 100%; height: 100%; object-fit: contain; }
+
+/* --- Interactive Chat Panel --- */
+.chat-panel {
+    background: var(--bg-panel);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: var(--glass-blur);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chat-header {
+    padding: 1.2rem;
+    border-bottom: 1px solid var(--glass-border);
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.chat-header h3 { font-size: 1.1rem; font-weight: 500; }
+.ai-avatar {
+    width: 32px; height: 32px;
+    background: linear-gradient(135deg, var(--neon-blue), var(--neon-green));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.msg {
+    max-width: 85%;
+    padding: 1rem;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    animation: slideUp 0.3s ease;
+}
+.msg.ai {
+    background: rgba(0, 234, 255, 0.1);
+    border: 1px solid rgba(0, 234, 255, 0.2);
+    align-self: flex-start;
+    border-top-left-radius: 2px;
+    color: #d0f0ff;
+}
+.msg.user {
+    background: rgba(0, 255, 157, 0.15);
+    border: 1px solid rgba(0, 255, 157, 0.3);
+    align-self: flex-end;
+    border-bottom-right-radius: 2px;
+    color: #fff;
+    text-align: right;
+}
+
+.chat-input-area {
+    padding: 1rem;
+    border-top: 1px solid var(--glass-border);
+    display: flex;
+    gap: 0.5rem;
+}
+
+.chat-input {
+    flex: 1;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 0.8rem 1rem;
+    color: #fff;
+    font-family: inherit;
+    outline: none;
+    transition: all 0.3s ease;
+}
+.chat-input:focus {
+    border-color: var(--neon-blue);
+    box-shadow: var(--glow-subtle);
+}
+
+.btn-send {
+    background: var(--neon-green);
+    color: #000;
+    border: none;
+    border-radius: 12px;
+    width: 48px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: transform 0.2s;
+}
+.btn-send:hover { transform: scale(1.05); }
+
+/* --- Animations --- */
+@keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.4; } 100% { opacity: 1; } }
+@keyframes slideUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
+
+
+==================================================
+FILENAME: script.js
+==================================================
+const dropZone = document.getElementById('drop-zone');
+const fileInput = document.getElementById('file-input');
+const uploadStage = document.getElementById('upload-stage');
+const processStage = document.getElementById('process-stage');
+const resultStage = document.getElementById('result-stage');
+
+const statusMessage = document.getElementById('status-message');
+const stepCount = document.getElementById('step-count');
+const progressFill = document.getElementById('progress-fill');
+const logContent = document.getElementById('log-content');
+const finalVideo = document.getElementById('final-video');
+const downloadLink = document.getElementById('download-link');
+
+// Chat Elements
+const chatInput = document.getElementById('chat-input');
+const sendBtn = document.getElementById('btn-send');
+const chatBox = document.getElementById('chat-box');
+
+const API_BASE = window.location.origin;
+
+// --- Drag & Drop ---
+dropZone.addEventListener('click', () => fileInput.click());
+dropZone.addEventListener('dragover', (e) => {
+    e.preventDefault();
+    dropZone.style.borderColor = 'var(--neon-green)';
+    dropZone.style.backgroundColor = 'rgba(0, 255, 157, 0.05)';
+});
+dropZone.addEventListener('dragleave', () => {
+    dropZone.style.borderColor = 'var(--glass-border)';
+    dropZone.style.backgroundColor = 'transparent';
+});
+dropZone.addEventListener('drop', (e) => {
+    e.preventDefault();
+    dropZone.style.borderColor = 'var(--glass-border)';
+    dropZone.style.backgroundColor = 'transparent';
+    const files = e.dataTransfer.files;
+    if (files.length) handleFile(files[0]);
+});
+fileInput.addEventListener('change', (e) => {
+    if (e.target.files.length) handleFile(e.target.files[0]);
+});
+
+// --- Chat Interactions ---
+sendBtn.addEventListener('click', sendChat);
+chatInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') sendChat();
+});
+
+async function sendChat() {
+    const text = chatInput.value.trim();
+    if (!text) return;
+
+    // User Message
+    appendMessage(text, 'user');
+    chatInput.value = '';
+
+    // Typing indicator
+    const typingId = appendMessage("Analysing match data...", 'ai typing');
+
+    try {
+        const timestamp = finalVideo.currentTime || 0;
+        const res = await fetch(`${API_BASE}/chat`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                question: text,
+                timestamp: timestamp
+            })
+        });
+
+        const data = await res.json();
+
+        // Remove typing indicator
+        const typingEl = document.getElementById(typingId);
+        if (typingEl) typingEl.remove();
+
+        // AI Response
+        if (data.answer) {
+            appendMessage(data.answer, 'ai');
+        } else {
+            appendMessage("Signal interference. Could not process.", 'ai error');
+        }
+
+    } catch (err) {
+        console.error(err);
+        appendMessage("System Error: Connection lost.", 'ai error');
+    }
+}
+
+function appendMessage(text, type) {
+    const id = 'msg-' + Date.now();
+    const div = document.createElement('div');
+    div.id = id;
+    div.className = `msg ${type}`;
+    div.innerText = text;
+    chatBox.appendChild(div);
+    chatBox.scrollTop = chatBox.scrollHeight;
+    return id;
+}
+
+// --- Upload & Process Logic ---
+
+async function handleFile(file) {
+    // Relaxed check: Allow video/* OR file names ending in .mp4
+    if (!file.type.startsWith('video/') && !file.name.toLowerCase().endsWith('.mp4')) {
+        alert("Please upload a video file (MP4 recommended).");
+        return;
+    }
+
+    switchStage(uploadStage, processStage);
+    statusMessage.innerText = "UPLOADING FOOTAGE...";
+    log("Starting upload...");
+
+    const formData = new FormData();
+    formData.append('file', file);
+
+    try {
+        const upResp = await fetch(`${API_BASE}/upload`, {
+            method: 'POST',
+            body: formData
+        });
+        if (!upResp.ok) throw new Error("Upload failed");
+        const upData = await upResp.json();
+        const filename = upData.filename;
+
+        log("Upload complete. Initializing pipeline...");
+        startProcessing(filename);
+
+    } catch (err) {
+        showError(err.message);
+    }
+}
+
+function switchStage(current, next) {
+    current.classList.remove('active');
+    // small delay for transition
+    setTimeout(() => {
+        next.classList.add('active');
+    }, 100);
+}
+
+async function startProcessing(filename) {
+    statusMessage.innerText = "MATCH IN PROGRESS...";
+
+    // Get options
+    const hasScorecard = document.querySelector('input[name="scorecard"]:checked').value === 'yes';
+
+    try {
+        await fetch(`${API_BASE}/process?filename=${encodeURIComponent(filename)}&has_scorecard=${hasScorecard}`, { method: 'POST' });
+        pollStatus();
+    } catch (err) {
+        showError("Failed to start processing");
+    }
+}
+
+async function pollStatus() {
+    let interval = setInterval(async () => {
+        try {
+            const resp = await fetch(`${API_BASE}/status`);
+            const data = await resp.json();
+
+            if (data.logs && data.logs.length) {
+                // Only show last log
+                const lastLog = data.logs[data.logs.length - 1];
+                logContent.innerText = `> ${lastLog}`;
+            }
+
+            const steps = data.step || 0;
+            const total = data.total_steps || 7;
+            stepCount.innerText = `${steps}/${total}`;
+            const percent = (steps / total) * 100;
+            progressFill.style.width = `${percent}%`;
+
+            if (data.status === 'completed') {
+                clearInterval(interval);
+                showResult();
+            } else if (data.status === 'error') {
+                clearInterval(interval);
+                showError(data.message);
+            }
+
+        } catch (err) {
+            console.error("Polling error", err);
+        }
+    }, 1000);
+}
+
+async function showResult() {
+    switchStage(processStage, resultStage);
+
+    const timestamp = new Date().getTime();
+    finalVideo.src = `${API_BASE}/result?t=${timestamp}`;
+    downloadLink.href = `${API_BASE}/result`;
+
+    // Auto-play
+    finalVideo.play().catch(e => console.log("Autoplay prevented"));
+}
+
+function showError(msg) {
+    alert("Error: " + msg);
+    switchStage(processStage, uploadStage);
+}
+
+function log(msg) {
+    logContent.innerText = `> ${msg}`;
+}

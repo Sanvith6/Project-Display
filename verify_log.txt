@@ -1,0 +1,9 @@
+Verifying imports...
+[FAIL] Failed to import Commentator: No module named 'timm'
+[FAIL] Failed to import FastAPI app: No module named 'timm'
+Checking files...
+[OK] Found c:/project/Project-Display/commentator.py
+[OK] Found c:/project/Project-Display/app.py
+[OK] Found c:/project/Project-Display/static/index.html
+[OK] Found c:/project/Project-Display/static/style.css
+[OK] Found c:/project/Project-Display/static/script.js

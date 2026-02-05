@@ -1,0 +1,15 @@
+{
+  "stages": {
+    "ffmpeg_split": 130.32149243354797,
+    "scorecard_ocr": 354.8499903678894,
+    "load_models": 1.2835898399353027,
+    "frame_inference": 228.62936568260193,
+    "clip_inference": 31.326165676116943,
+    "save_raw_outputs": 0.08164596557617188,
+    "build_timeline": 0.09230804443359375,
+    "build_prompt": 0.003039836883544922,
+    "llm_commentary": 205.20030045509338,
+    "tts": 122.8945963382721
+  },
+  "total_seconds": 1074.6900448799133
+}

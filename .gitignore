@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Logs
+*.log
+
+# Media / large files
+*.mp4
+*.jpeg
+*.jpg
+*.png
+*.pptx
+*.mp3
+
+# Generated directories
+frames/
+clips/
+uploads/
+models/
+__pycache__/

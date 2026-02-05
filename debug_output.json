@@ -1,0 +1,68 @@
+{
+  "mode_1_cropped": {
+    "ocr_text": "ENG\n33-1\n4/20\nkun Rate 85\nSmith 16 9%\n/Buttler 120)\nWI 83 mph/133 kph",
+    "parsed": {
+      "team1_name": "ENG",
+      "team2_name": "kun Rate",
+      "team1_score": {
+        "runs": 33,
+        "wickets": 1,
+        "overs": "4"
+      },
+      "team2_score": {
+        "runs": 85,
+        "wickets": null,
+        "overs": null
+      },
+      "overlay_type": null,
+      "bat_team": null,
+      "bowl_team": null,
+      "phase": null,
+      "overs_limit": null,
+      "toss_team": null,
+      "striker_name": null,
+      "striker_runs": null,
+      "striker_balls": null,
+      "nonstriker_name": null,
+      "nonstriker_runs": null,
+      "nonstriker_balls": null,
+      "speed_mph": null,
+      "speed_kph": null,
+      "raw_text": "ENG 33-1 4/20 kun Rate 85 Smith 16 9% /Buttler 120) WI 83 mph/133 kph"
+    },
+    "error": null
+  },
+  "mode_2_full": {
+    "ocr_text": "SONY\ndafabet\ndafabet\nLife Insurance\nHealth Insurance\nMistic)\nLife Insurance\nWalis\nHealth Insurance\nENG\n33-1\n4/20\nRun Rate 8.25\nSmith 16(0)\n/Buttler 12(1)\nWI 83 mph/ 133 kph",
+    "parsed": {
+      "team1_name": "ife Insurance Walis Health Insurance ENG",
+      "team2_name": "Run Rate",
+      "team1_score": {
+        "runs": 33,
+        "wickets": 1,
+        "overs": "4"
+      },
+      "team2_score": {
+        "runs": 8,
+        "wickets": null,
+        "overs": null
+      },
+      "overlay_type": null,
+      "bat_team": null,
+      "bowl_team": null,
+      "phase": null,
+      "overs_limit": null,
+      "toss_team": null,
+      "striker_name": null,
+      "striker_runs": null,
+      "striker_balls": null,
+      "nonstriker_name": null,
+      "nonstriker_runs": null,
+      "nonstriker_balls": null,
+      "speed_mph": null,
+      "speed_kph": null,
+      "raw_text": "SONY dafabet dafabet Life Insurance Health Insurance Mistic) Life Insurance Walis Health Insurance ENG 33-1 4/20 Run Rate 8.25 Smith 16(0) /Buttler 12(1) WI 83 mph/ 133 kph"
+    },
+    "error": null
+  }
+}

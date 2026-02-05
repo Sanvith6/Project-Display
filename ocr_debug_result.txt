@@ -1,0 +1,39 @@
+ENG
+0-0
+0/20
+Toss ENG
+/ Smith 0(0)
+Duckett 0(0)
+WI
+Holdor
+
+===== PARSED RESULT =====
+{
+  "team1_name": "ENG",
+  "team2_name": "WI",
+  "team1_score": {
+    "runs": 0,
+    "wickets": 0,
+    "overs": "0"
+  },
+  "team2_score": {
+    "runs": null,
+    "wickets": null,
+    "overs": null
+  },
+  "overlay_type": "compact_strip",
+  "bat_team": "ENG",
+  "bowl_team": "WI",
+  "phase": null,
+  "overs_limit": 20,
+  "toss_team": "ENG",
+  "striker_name": "Smith",
+  "striker_runs": 0,
+  "striker_balls": 0,
+  "nonstriker_name": "Duckett",
+  "nonstriker_runs": 0,
+  "nonstriker_balls": 0,
+  "speed_mph": null,
+  "speed_kph": null,
+  "raw_text": "ENG 0-0 0/20 Toss ENG / Smith 0(0) Duckett 0(0) WI Holdor"
+}
